@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/AstenFuller/ejs-portfolio#readme",
   "dependencies": {
+    "@sendgrid/mail": "^6.5.3",
+    "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "morgan": "^1.9.1"
