@@ -14,4 +14,12 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
+app.post('/thanks', (req, res) => {
+    res.render('thank', { contact: req.body });
+});
+
 module.exports = app;
